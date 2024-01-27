@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0px;
+    font-family:sans-serif;
+    scroll-margin-inline: 50px;
+}
+nav{
+    background-color:  rgba(156, 225, 225, 0.205);
+    width: 100%;
+    height: 20%;
+ 
+ bottom:90%; 
+    
+}
+nav ul li{
+    position:relative;
+    display:inline-table;
+    padding: 20px 25px;
+}
+.list {
+    position:absolute;
+    display:block;
+    
+}
+.list a{
+    text-decoration:none;
+    
+}
+nav a{
+    text-decoration:none;
+    color: white;
+    /*background-color: rgb(204, 84, 90);*/
+    border-radius: 5px;
+}
+.list{
+    display:none;
+}
+nav .dropdown:hover .list{
+    
+    display:block;
+    background-color: rgba(207, 202, 219, 0.574);
+}
+.dropdown:hover .list{
+    background-color: rgb(91, 190, 193);
+}
+/*nav .list a:hover{
+    background-color: rgb(154, 138, 173);
+}*/
+nav  a{
+    padding: 10px;
+}
+#navbar a:hover{
+    color:blue;
+      background-color:yellow;
+      transition: 5ms;
+        
+     }
+ 
+ nav .list ul{
+    padding-inline: 15px;
+    margin: -15px;
+
+ }
+ nav .list li{
+    border-bottom-style: dashed pink;
+ }
+ nav ul li{
+    position: relative;
+    left: 10%;
+ }
+ nav .list li{
+    border-bottom-style:double;
+    border-bottom-color:grey;
+    
+   }
+   #navbar  a{
+    color:black;
+    font-family:ui-rounded;
+    font-size:25px;
+   }
+      
+   header img{
+    position:relative;
+    bottom:59px;
+    width:100%;
+    height:45rem;
+    z-index:-1;
+    
+   }
+   .head{
+    display:flex;
+    flex-direction:column;
+    padding: 50px 200px;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    bottom: 42vh;
+    font-family:sans-serif;
+    font-size:1.9rem;
+    font-style:italic;
+    left:100px;
+    color:#1a150a;
+   }
+   
+   .head button{
+    cursor: pointer;
+    position: relative;
+
+    color:#38041ce3;
+    background-color:#6c2fbc9c;
+    border-radius:5px
+}
+
+
+#m{
+    background-image: url(p1.jpg);
+    width:120%;
+ height:50vh;
+    background-repeat: no-repeat;
+}
+body, html{
+ height:100%;
+ margin:0;
+ overflow-x: hidden;
+}
+.secondary{
+    background-image: url(.jpg);
+    position:relative;
+    top:-27%;
+}
+ .services .box{
+    border: 2px solid brown;
+    padding:35px;
+  border-radius:25px;
+  margin:2px 5px;
+  background:#e5eded66;
+    
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    position:relative;
+    bottom:-27px;
+}
+.services{
+    margin: 34px;
+    display: flex;
+    text-align: center;
+}
+.services .box img{
+    height: 170px;
+    display:block;
+    margin:auto;
+   
+
+    
+}
+.services .box img{
+    height: 170px;
+    display:block;
+    margin:auto;
+  }
+section{
+ text-align:center;
+ position:relative;
+ top:-20vh;
+}
+.client{
+    background-image: url(.jpg);
+    position:relative;
+    top:-10%;
+    width: 120%;
+}
+
+.client h1{
+    font-size: 2.7rem;
+    color: #1a150a;
+    position:relative;
+    bottom: 125px;
+    left: -5%;
+}
+ .client img{
+    border: 10px;
+    height:20vh;
+    width:10%;
+    padding: 20px;
+   }
+   table{ 
+    border: 2px solid brown;
+    padding:15px;
+  border-radius:25px;
+  margin:2px;
+  position:relative;
+ left: 10%;
+ top: -120px;
+ }
+
+ table th{
+    border:2px solid brown;
+    border-radius:10px;
+    padding:50px;
+    margin:10px 10px;
+    text-align:center;
+    background-color: rgb(231 240 237 / 57%);
+ }
+ .contact {
+    border-radius:5px;
+    background-color:aliceblue;
+   width:90%;
+    padding:20px;
+  align-content:center;
+  position:relative;
+  left:50px;
+  
+   } 
+ input[type=text],[type=password]{
+  width:50%;
+  padding:12px 20px;
+  margin:7px 0;
+  display:inline-block;
+  border:1px solid #ccc;
+  border-radius:5px;
+  box-sizing:border-box;
+  position:relative;
+  left:35px;
+  
+ }
+ .contact h1{
+    font-size: 2.5rem;
+ }
+ .contact button{
+    cursor: pointer;
+    background-color: #acb2b8;
+    color: #e0145c;
+    padding: 2px;
+  border-radius:2px;
+ }
+ input[type=text],input[type=password]{
+    position:relative;
+    left:115px;
+    align-content:center;
+    align-items:center;
+   }
+ 
+      
+   
